@@ -1,0 +1,1 @@
+In React Router Dom v6, the use of the `Navigate` component outside of a `Route` element can lead to unexpected behavior.  The `Navigate` component needs to be nested within a `Route` to function correctly. Placing it elsewhere may result in rendering issues or prevent navigation from working as intended.
